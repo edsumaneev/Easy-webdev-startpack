@@ -1,8 +1,6 @@
 .main {
   @include container();
-}
+  padding-bottom: 50px;
 
-.svgimg {
-  width: 30px;
-  height: 30px;
+  background-color: gold;
 }
