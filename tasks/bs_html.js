@@ -17,6 +17,7 @@ module.exports = function bs_html() {
 			}
 		},
 		browser: 'chrome',
+		// browser: 'brave',
 		logPrefix: 'BS-HTML:',
 		logLevel: 'info',
 		logConnections: true,
