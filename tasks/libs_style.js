@@ -1,5 +1,7 @@
 const plugins = [
-  'node_modules/jquery-ui/themes/base/*.css'
+  'src/components/vendors/jquery-ui-1.13.0/jquery-ui.css',
+  'src/components/vendors/jquery-ui-1.13.0/jquery-ui.structure.css',
+  'src/components/vendors/jquery-ui-1.13.0/jquery-ui.theme.css'
 ];
 
 const {
@@ -16,12 +18,12 @@ module.exports = function libs_style(done) {
   if (plugins.length > 0) {
     return src(plugins)
       .pipe(map.init())
-      // .pipe(sass({
-      //   outputStyle: 'compressed'
-      // }).on('error', sass.logError))
-      .pipe(clean({
-        level: 2
-      }))
+      .pipe(sass({
+        outputStyle: 'compressed'
+      }).on('error', sass.logError))
+      // .pipe(clean({
+      //   level: 2
+      // }))
       .pipe(concat('libs.min.css'))
       .pipe(map.write('../sourcemaps/'))
       .pipe(dest('build/css/'))

@@ -1,8 +1,6 @@
 const plugins = [
 	'node_modules/jquery/dist/jquery.js',
-	'node_modules/jquery-ui/ui/unique-id.js',
-	'node_modules/jquery-ui/ui/widget.js',
-	'node_modules/jquery-ui/ui/widgets/accordion.js'
+	'src/components/vendors/jquery-ui-1.13.0/jquery-ui.js'
 ];
 const {
 	src,

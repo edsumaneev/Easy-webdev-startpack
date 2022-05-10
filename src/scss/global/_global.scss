@@ -45,7 +45,7 @@
 	width: 100%;
 	height: 100%;
 	min-height: 100vh;
-	// padding-top: 110px;
+	// padding-top: 80px;
 }
 
 html {
@@ -57,6 +57,7 @@ body {
 	overflow-x: hidden;
 	min-height: 100%;
 	position: relative;
+	background-color: rgb(231, 231, 231);
 }
 
 body {
@@ -84,4 +85,73 @@ h6 {
 // 	list-style: none;
 // 	padding: 0;
 // 	margin: 0;
+// }
+
+$width-xl: 1200px;
+$width-lg: 992px;
+$width-md: 768px;
+$width-sm: 576px;
+
+// container
+.wrapper {
+	position: relative;
+}
+
+// Extra small <576px container width: auto
+.wrapper,
+footer {
+	padding: 0 15px;
+	width: auto;
+}
+
+// Small ≥576px container max-width: 540px
+@media (min-width: 575.98px) {
+
+	.wrapper,
+	footer {
+		padding: 0 calc(50vw - 270px);
+	}
+}
+
+// Medium ≥768px container max-width: 720px
+@media (min-width: 767.98px) {
+
+	.wrapper,
+	footer {
+		padding: 0 calc(50vw - 360px);
+	}
+}
+
+// Large ≥992px container max-width: 960px
+@media (min-width: 991.98px) {
+
+	.wrapper,
+	footer {
+		padding: 0 calc(50vw - 480px);
+	}
+}
+
+// Extra large ≥1200px container max-width: 1140px
+@media (min-width: 1198.98px) {
+
+	.wrapper,
+	footer {
+		padding: 0 calc(50vw - 570px);
+	}
+}
+
+// @media (min-width: 1449.98px) {
+
+// 	.wrapper,
+// 	footer {
+// 		padding: 0 calc(50vw - 593px);
+// 	}
+// }
+
+// @media (min-width: 2498.98px) {
+
+//   .wrapper,
+//   footer {
+//     padding: 0 calc(50vw - 750px);
+//   }
 // }

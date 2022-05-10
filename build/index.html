@@ -17,10 +17,47 @@
 </head>
 
 <body>
-  <header class="header"></header>
-
-  <main class="main container">
-    <div id="accordion">
+  <div class="page-wrapper">
+    <div id="overlay"></div>
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <nav class="nav">
+  <ul class="menu">
+  <li>
+    <a class="menu__link" href="#">Link_01</a>
+  </li>
+  <li>
+    <a class="menu__link" href="#">Link_02</a>
+  </li>
+  <li>
+    <a class="menu__link" href="#">Link_03</a>
+  </li>
+  <li>
+    <a class="menu__link" href="#">Link_04</a>
+  </li>
+</ul>
+</nav>
+<ul class="mobmenu">
+  <li>
+    <a class="mobmenu__link" href="#">Link_01</a>
+  </li>
+  <li>
+    <a class="mobmenu__link" href="#">Link_02</a>
+  </li>
+  <li>
+    <a class="mobmenu__link" href="#">Link_03</a>
+  </li>
+  <li>
+    <a class="mobmenu__link" href="#">Link_04</a>
+  </li>
+</ul>
+        <div class="hamburger">
+  <span></span>
+</div>
+      </div>
+    </header>
+<main class="front-page wrapper">
+  <div id="accordion">
   <h3>Section 1</h3>
   <div>
     <p>
@@ -68,13 +105,15 @@
     </p>
   </div>
 </div>
-    <div>
-      <button class="btn" type="button">Button</Button>
-    </div>
-  </main>
-  <footer class="footer"></footer>
-  <script src="js/libs.min.js"></script>
+  <div>
+    <button class="btn" type="button">Button</Button>
+    <a href="404.html">404 not found</a>
+  </div>
+</main>
+<footer class="footer"></footer>
+<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
+</div>
 </body>
 
 </html>
