@@ -1,6 +1,8 @@
 const plugins = [
 	'node_modules/jquery/dist/jquery.js',
-	'src/components/vendors/jquery-ui-1.13.0/jquery-ui.js'
+	'src/components/vendors/jquery-ui-1.13.0/jquery-ui.js',
+	'src/components/vendors/slick/slick.js',
+	'src/components/vendors/slick/_slick.js'
 ];
 const {
 	src,
