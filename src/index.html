@@ -16,7 +16,12 @@
   <div>
     <a class="--svg__icon-fb" href="#"></a>
   </div>
-  @@include('components/vendors/slick/_slick.html')
+  <div class="slider" id="slider01">
+    @@loop('components/vendors/slick/_slick.html', 'list-slider01.json')
+  </div>
 </main>
+<ul class="list-main wrapper">
+  @@loop('components/lists/_list-main.html', 'list-main.json')
+</ul>
 @@include('components/page-blocks/_footer.html')
 @@include('components/page-blocks/_scripts.html')

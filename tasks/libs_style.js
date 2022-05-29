@@ -4,7 +4,8 @@ const plugins = [
   'src/components/vendors/jquery-ui-1.13.0/jquery-ui.theme.css',
   'src/components/vendors/slick/slick.scss',
   'src/components/vendors/slick/slick-theme.scss',
-  'src/components/vendors/slick/_slick-custom.scss'
+  'src/components/vendors/slick/_slick-custom.scss',
+  'src/components/vendors/anim_wow/animate.css'
 ];
 
 const {

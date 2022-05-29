@@ -1,0 +1,29 @@
+[{
+    "title": "Обо мне",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos eaque facere et laboriosam quod quidem aspernatur adipisci optio error?",
+    "num": "01 — 09",
+    "img": "img/bg/list-img-01.webp",
+    "link": "about"
+  },
+  {
+    "title": "Мое направление",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos eaque facere et laboriosam quod quidem aspernatur adipisci optio error?",
+    "num": "02 — 09",
+    "img": "img/bg/list-img-02.webp",
+    "link": "toward"
+  },
+  {
+    "title": "Первая встреча",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos eaque facere et laboriosam quod quidem aspernatur adipisci optio error?",
+    "num": "03 — 09",
+    "img": "img/bg/list-img-01.webp",
+    "link": "first"
+  },
+  {
+    "title": "Контакты",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos eaque facere et laboriosam quod quidem aspernatur adipisci optio error?",
+    "num": "04 — 09",
+    "img": "img/bg/list-img-02.webp",
+    "link": "cont"
+  }
+]
